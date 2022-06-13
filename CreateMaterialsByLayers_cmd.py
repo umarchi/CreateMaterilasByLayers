@@ -9,7 +9,7 @@ def RunCommand( is_interactive ):
   num_layer = len(allLayers)
   
   # Select layers to make materials
-  selectedLayers = rs.MultiListBox(allLayers, "Pick layers to make materials.")
+  selectedLayers = rs.MultiListBox(allLayers, "Select layers to make materials.")
   for selectedLayer in selectedLayers:
     
       # Check if the layers are applied the materials or not
