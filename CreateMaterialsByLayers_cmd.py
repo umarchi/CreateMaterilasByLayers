@@ -1,4 +1,7 @@
 import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import Rhino as rh
+import System
 
 __commandname__ = "CreateMaterialsByLayers"
 
